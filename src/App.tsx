@@ -1,11 +1,12 @@
 import React from "react";
+//eslint-disable-next-line
+import ReactDOM from "react-dom/client";
 import "./App.css";
 
 import {
   HashRouter as Router,
   Routes as Switch,
   Route,
-  Link,
 } from "react-router-dom";
 import Details from "./Views/Details";
 import Footer from "./Footer";

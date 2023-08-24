@@ -1,6 +1,6 @@
 import React from "react";
+//eslint-disable-next-line
 import ReactDOM from "react-dom/client";
-
 export default function PrintView() {
   //on Load, print the page
   const [print, setPrint] = React.useState(false);
